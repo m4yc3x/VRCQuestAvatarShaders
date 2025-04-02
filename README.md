@@ -2,6 +2,10 @@
 
 A collection of optimized, mobile-friendly shaders designed specifically for VRChat Quest avatars. These shaders provide high-quality visual effects while maintaining performance on mobile VR platforms, focusing on creating unique material appearances like iridescence, glass, metals, and other special effects.
 
+## Important Technical Note
+
+All shaders in this collection are compiled under the `VRChat/Mobile/Particles/Additive` shader path to ensure compatibility with VRChat's Android SDK and Quest platform. This specific implementation allows the shaders to pass through VRChat's upload pipeline while maintaining their custom functionality.
+
 ## Features
 
 ### Visual Effects
